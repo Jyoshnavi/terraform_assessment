@@ -1,0 +1,14 @@
+variable "profile" { default = "default" }
+variable "region" { default = "eu-west-1" }
+variable "vpc_id" { default = "vpc-00c9cf0d5b66dce69" }
+variable "cidr_block_sg1" { default = ["0.0.0.0/0"] }
+variable "cidr_block_sg2" { default = ["0.0.0.0/0"] }
+variable "starting_port_1" { default = "8090" }
+variable "starting_port_2" { default = "5883" }
+variable "starting_port_3" { default = "22" }
+variable "ending_port_1" { default = "8090" }
+variable "ending_port_2" { default = "5883" }
+variable "ending_port_3" { default = "22" }
+variable "protocol" { default = "tcp" }
+variable "sg_name1" { default = "HCL_Dryice_SG_Noida" }
+variable "sg_name2" { default = "HCL_Dryice_SG_Chennai" }

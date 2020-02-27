@@ -1,0 +1,9 @@
+variable "region" { default = " " }
+variable "profile" { default = " " }
+variable "ami" { default = " " }
+variable "availability_zone" { default = "" }
+variable "instance_type" { default = "t2.micro" }
+variable "security_group" { default = "" }
+variable "subnet_id" { default = " " }
+#variable "private_ip" { default = " " }
+variable "instance_name" { default = " " }

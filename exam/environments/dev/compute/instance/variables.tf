@@ -1,0 +1,9 @@
+variable "region" { default = "eu-west-1" }
+variable "profile" { default = "default" }
+variable "availability_zone" { default = "eu-west-1b" }
+variable "ami" { default = "ami-04facb3ed127a2eb6" }
+variable "instance_type" { default = "t2.micro" }
+variable "security_groups" { default = ["sg-056081a407724cc34","sg-0f83ef92dee4da2a9"]}
+variable "subnet_id" { default = "subnet-09bc8ea31b7dcb5c3" }
+#variable "private_ip" { default = ["10.0.0.50"] }
+variable "instance_name" { default = "Myinstance" }
